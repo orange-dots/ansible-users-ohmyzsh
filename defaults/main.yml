@@ -1,0 +1,42 @@
+---
+# If you come from bash you might have to change your $PATH.
+users_ohmyzsh_extrapath: $HOME/bin:/usr/local/bin:$PATH
+
+# Set name of the theme to load. Optionally, if you set this to "random"
+# it'll load a random theme each time that oh-my-zsh is loaded.
+# See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
+users_ohmyzsh_theme: mh
+
+# Update the git repository on config run: yes | no
+users_ohmyzsh_update: no
+
+# Use case sensitive completion: true | false
+users_ohmyzsh_case_sensitive: false
+
+# Use hyphen-insensitive completion. Case sensitive completion must be off. "." and "_" interchangable.
+users_ohmyzsh_hyphen_insensitive: false
+
+# Disable 14 days auto update check: true | false
+users_ohmyzsh_disable_auto_update: true
+
+# Auto update interval in days: integer
+users_ohmyzsh_update_interval: 13
+
+# Disable colors in 'ls' command: true | false
+users_ohmyzsh_disable_ls_colors: false
+
+# Disable terminal title auto setting: true | false
+users_ohmyzsh_disable_auto_title: false
+
+# Disable command auto correction: true | false
+users_ohmyzsh_enable_correction: false
+
+# Disable red dot busy notification upon waiting for command completion
+users_ohmyzsh_enable_reddots: true
+
+# Disable marking untracked files under VCS as dirty to greatly accelerate repository status chcke for large repositories: true | false
+users_ohmyzsh_disable_untracked_files_dirty: false
+
+# Default plugins
+users_ohmyzsh_plugins: git
+

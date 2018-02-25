@@ -1,0 +1,7 @@
+---
+
+- include: install.yml
+  tags: ['system', 'users-ohmyzsh', 'install', 'install-users-ohmyzsh', 'shell']
+
+- include: config.yml
+  tags: ['system', 'users-ohmyzsh', 'config', 'config-users-ohmyzsh', 'shell']
